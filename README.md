@@ -56,6 +56,10 @@ The project includes dataset preparation, ControlNet training using Hugging Face
     ├── Control_Net_Experiments.ipynb   # Ablations (conditioning scale, training duration)
     ├── Control_Net_Evaluation.ipynb    # Saliency task evaluation
     ├── Control_Net_Demo.ipynb          # Interactive demo notebook
+    ├── samples_for_demo
+        ├── images                      # Contains original ground truth images
+        ├── conditioning_images         # Contains the corresponding saliency masks for the ground truth images
+        ├── metadata.jsonl              # Contains the mapping between images and conditioning_images as well as the prompt / caption for the original
 │
 ├── Project_Report.pdf         # Final project report
 ├── README.md                       # This file

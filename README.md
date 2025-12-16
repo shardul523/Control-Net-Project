@@ -53,8 +53,6 @@ The project includes dataset preparation, ControlNet training using Hugging Face
     ├── Control_Net.ipynb               # Saliency ControlNet training
     ├── Control_Net_Experiments.ipynb   # Ablations (conditioning scale, training duration)
     ├── Control_Net_Evaluation.ipynb    # Saliency task evaluation
-    ├── Control_Net_Evaluation_lowLR.ipynb
-    ├── Control_Net_Evaluation_highLR.ipynb
     │
     ├── Control_Net_Demo.ipynb          # Interactive demo notebook
 │

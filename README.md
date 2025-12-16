@@ -16,9 +16,11 @@ In this project, we explore ControlNet across **two complementary conditioning p
 
 1. **Anime Sketch Coloring (Structure-Based Control)**  
    Line-art sketches are used as a *hard structural constraint* to guide colorization while preserving spatial fidelity.
+   [Final Model Link](https://huggingface.co/akash00chaudhari/Anime-70)
 
 2. **Saliency-Guided Image Generation (Novel Task)**  
    Contextual saliency masks are used as a *soft spatial prior* to guide semantic attention in conjunction with text prompts.
+   [Final Model Link](https://huggingface.co/Shardul-IIITB/salience_mask_control_net)
 
 The project includes dataset preparation, ControlNet training using Hugging Face Diffusers, extensive ablation studies, quantitative and qualitative evaluation, and an interactive demo.
 
@@ -53,7 +55,6 @@ The project includes dataset preparation, ControlNet training using Hugging Face
     ├── Control_Net.ipynb               # Saliency ControlNet training
     ├── Control_Net_Experiments.ipynb   # Ablations (conditioning scale, training duration)
     ├── Control_Net_Evaluation.ipynb    # Saliency task evaluation
-    │
     ├── Control_Net_Demo.ipynb          # Interactive demo notebook
 │
 ├── Project_Report.pdf         # Final project report
